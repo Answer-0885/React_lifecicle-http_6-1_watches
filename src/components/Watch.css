@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+.watch {
+    position: relative;
+    margin: 35px auto;
+    height: 12rem;
+    width: 12rem;
+    border: .2rem solid rgba(167, 9, 240, 0.7);
+    background-color: #6f9;
+    border-radius: 100%;
+    user-select: none;
+  }
+  
+  .watch-close {
+    position: absolute;
+    color: red;
+    top: -5%;
+    right: -8%;
+    line-height: 1.15rem;
+    text-align: center;
+    height: 1.15rem;
+    width: 1.15rem;
+    border: .1rem solid rgba(167, 9, 240, 0.7);
+    border-radius: .7rem;
+    cursor: pointer;
+  }
+  
+  .watch-hour,
+  .watch-minute, 
+  .watch-second {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    line-height: 4rem;
+    pointer-events: none;
+  }
+
+.watch-second {
+  color: rgba(236, 15, 15, 0.9);
+}
+.watch-minute {
+  color: rgba(15, 30, 236, 0.9);
+}
+.watch-hour {
+  color: rgba(0, 0, 0, 0.9);
+}
+  
+  .watch-name {
+    font-family: 'Orbitron', sans-serif;
+    position: absolute;
+    top: 15%;
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+    z-index: 10;
+  }
+  
+  .watch-time {
+    font-family: 'Orbitron', sans-serif;
+    position: absolute;
+    color: #6f9;
+    background-color:#121212;
+    border-radius:0.5rem;
+    top: 105%;
+    text-align: center;
+    width: 100%;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    font-size: 2rem;
+    font-weight: 600;
+  }

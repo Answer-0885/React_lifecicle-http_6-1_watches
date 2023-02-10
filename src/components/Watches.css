@@ -1,0 +1,8 @@
+.watches {
+    padding: 1rem;
+    max-width: 40rem;
+    text-align: center;
+    margin: auto;
+    border: 2px solid rgba(167, 9, 240, 0.7);
+    border-radius: 1rem;
+}

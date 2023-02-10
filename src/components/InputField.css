@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+input, button{
+    font-family: 'Orbitron', sans-serif;
+    border-radius: 0.5rem;
+    background-color:#6f9;
+    color:rgb(43, 25, 39);
+    font-weight: 600;
+    margin-right: 5px;;
+}
+label{
+    font-family: 'Orbitron', sans-serif;
+    color:rgb(48, 175, 91);
+    text-shadow: 1px 1px 1px black;
+}
